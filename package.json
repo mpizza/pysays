@@ -1,0 +1,23 @@
+{
+  "name": "pysays",
+  "version": "1.0.0",
+  "description": "fb chat bot.",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpizza/pysays.git"
+  },
+  "author": "PYChen (GaryChen)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/mpizza/pysays/issues"
+  },
+  "homepage": "https://github.com/mpizza/pysays#readme"
+}

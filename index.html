@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta charset="utf-8">
+    <!-- 
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"> 
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+     -->
+  </head>
+  <body>
+    <div class="mainwrap">
+      <div id="showPad">
+        <div id="mainword" class="textbox">
+          Hello, PY.
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1178127275564873',
+        xfbml      : true,
+        version    : 'v2.6'
+      });
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+</html>
